@@ -1,0 +1,820 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    color: #0a1f3c;
+}
+
+/* Colours */
+.sky-color {
+    background-color: #00BFFF;
+    color: #ffffff;
+}
+
+.orange-color {
+    color: #f75656;
+}
+
+.white-color {
+    color: #ffffff;
+}
+
+.yellow-color {
+    color: #ffdd55 !important;
+}
+
+.navy-color {
+    background-color: #10213f;
+}
+
+.red-color {
+    color: #10213f !important;
+}
+/* End Colours */
+
+.header {
+    font-weight: bold;
+}
+
+.hero-copy {
+    color: #2EE59D;
+    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 1px #a9a9a9;
+    font-weight: bold;
+    font-size: 36px;
+    align-self: center;
+}
+
+#trust-section, #gallery-section {
+    scroll-margin-top: 100px;
+}
+
+a.nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff !important;
+    text-shadow: 1px 1px #a9a9a9;
+    display: inline-block;
+}
+
+a.nav-link:hover {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffdd55 !important;
+    left: 0;
+    text-decoration: underline; 
+}
+
+a.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.cta-btn-top-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffdd55 !important;
+    transition: opacity 0.6s ease-in;
+    opacity: 0;
+}
+
+.cta-btn-top-container.scrolled {
+    opacity: 1;
+    display: block;
+}
+
+.cta-btn-top {
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ffdd55;
+    box-shadow: 0px 10px 25px rgba(39, 96, 252, 0.644);
+    transition: all .2s ease-in-out; 
+    color: #10213f;
+}
+
+
+.header-container {
+    position:relative;
+    height: 100%;
+    padding: 8% 0 10% 5%;
+    background-image: url("../images/hero_towing_med.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Raleway', 'Damion';    
+    margin-bottom: 100px;
+}
+
+video {
+    /* override other styles to make responsive */
+    width: 60%    !important;
+    height: auto   !important;
+}
+  
+
+.header-copy {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px #a9a9a9;
+    z-index:999
+}
+
+.header-copy-container {
+    background-color: #cccccc 0.8;
+}
+
+.blue-cola {
+    color: #008CDA;
+}
+
+.navy-color {
+    color: #0a1f3c;
+}
+
+.navbar-brand {
+    width: 60%;
+    font-weight: bold;
+    color: #ffffff !important;
+    font-family: 'Damion';
+    font-size: 30px;
+}
+
+.navbar-header {
+    display: none;
+}
+
+.header-title {
+    width: 100vw;
+    color: rgb(69, 131, 224);
+}
+
+.buy-btn, .cta-btn{
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ffdd55;
+    box-shadow: 0px 10px 25px rgba(39, 96, 252, 0.644);
+    transition: all .2s ease-in-out; 
+    color: #10213f;
+}
+
+.buy-btn:hover, .cta-btn:hover{    
+    background-color: #ffdd55;
+    box-shadow: 0px 35px 40px rgba(46, 229, 157, 0.4);
+    color: #10213f;
+    transform: scale(1.1);
+}
+
+.link-galeri {
+    color: #ffdd55;
+}
+
+.link-galeri:hover {
+    color: #ffffff !important;
+}
+
+/* Guide Section */
+.guide-container img{
+    height: 90%;
+    width: 90%;
+}
+
+.caption-buffer {
+    margin-top: 30%;
+}
+
+.carousel-caption {
+    color: #0f0f0f;
+}
+
+.img-contact {
+    width: 60%;
+}
+
+.footer-container {
+    color: #ffffff;
+    padding: 2%;
+}
+
+.heart:before {    
+    height: 30px;
+    width: 30px;
+    content: '\2665';
+    color: pink;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.services-section {
+    height: 100vh;
+    margin-bottom: 30px;
+}
+
+.trust-section {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    height: 60vh;
+    color: #ffffff !important;
+    padding: 3% 10% 30% 10%;
+    border-top: 4px solid #0a1f3c;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.footer-section a:hover {
+    text-decoration: none;
+    color: yellow !important;
+}
+
+.navbar-toggler {
+    background-color: #0a1f3c !important;
+}   
+
+.tag {
+opacity: 0;
+transform: translate(0, 10vh);
+transition: all 2.5s;
+}
+
+.tag.visible {
+opacity: 1;
+transform: translate(0, 0);
+background-color: #008CDA;
+}
+
+/* Gallery */
+.gallery-section {
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: #f9f9f9;
+}
+
+.flex-column {
+    max-width: 260px;
+}
+
+.img-fluid {
+    margin: 5px;
+}
+
+.scale {
+    transform: scaleY(1.05);
+    padding-top: 5px; 
+}
+/* Gallery */
+
+.responsive-iframe-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:350px;
+    width:400px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none !important;
+    height:350px;
+    width:400px;
+}
+
+.top-nav-responsive {
+    color: #ccc;
+    text-align: center;
+    display: none;
+}
+
+.top-nav {
+    color: #ccc;
+}
+
+.nav-contact a {
+    color: #ffffff !important;
+}
+
+.nav-contact a:hover {
+    color: yellow !important;
+}
+
+.top-buffer {
+    margin-top: 10px;
+}
+
+.float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.float-ig {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:110px;
+    right:40px;
+    background-color:#cd486b;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.floating-instagram {
+	margin-top:16px;
+}
+
+.floating-wa {
+	margin-top:16px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center ;
+    width: 15%;
+    margin: 0 auto;
+}
+  
+hr {
+    flex:1;
+    border-top: 3px solid #10213f;
+}
+
+/* ---- grid ---- */
+
+.grid {
+    background: #DDD;
+  }
+  
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  /* ---- .grid-item ---- */
+  
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%;
+  }
+  
+  .grid-item {
+    float: left;
+  }
+  
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+  
+
+/* Footer */
+.footer-hubungi-kami {
+    text-align: left;
+}
+/* End Footer */
+
+  
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-container {
+        height: 100vh;
+        width: 100vw; 
+        background-image: url("../images/hero_towing_med.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:top;
+        padding: 10%;
+        background-color: #10213f; 
+    }
+
+    .trust-section {
+        height: 100% !important; 
+        margin-bottom: 15%;
+    }
+
+    #trust-section, #gallery-section {
+        scroll-margin-top: 50px;
+    }
+
+    .navbar-header {
+        display: block;
+        width: 90%;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-brand-responsive {
+        font-family: 'Damion';
+    }
+
+    .nav-contact {
+        background-color: transparent;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center ;
+        width: 40%;
+        margin: 0 auto;
+    }
+      
+    hr {
+        flex:1;
+        border-top: 3px solid #10213f;
+    }
+
+    /* Gallery */
+    .gallery-section {
+        padding: 2%;
+        margin-bottom: 20px;
+    }
+    /* End Gallery */
+
+    .footer-section {
+        height: 100%;
+        background-color: #10213f;
+        color: #ffffff !important;
+        padding: 3% 10% 30% 10%;
+        border-top: 4px solid #0a1f3c;
+    }
+
+    .footer-section .col {
+        margin-bottom: 15px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-container {
+        height: 100vh;
+        width: 100vw; 
+        background-image: url("../images/hero_towing_med.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:top;
+        padding: 10%;
+        background-color: #10213f;
+    }
+
+    .trust-section {
+        height: 100% !important; 
+        margin-bottom: 15%;
+    }
+
+    #trust-section, #gallery-section {
+        scroll-margin-top: 50px;
+    }
+
+    .navbar-header {
+        display: block;
+        width: 100%;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-brand-responsive {
+        font-family: 'Damion';
+    }
+
+    .nav-contact {
+        background-color: transparent;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center ;
+        width: 40%;
+        margin: 0 auto;
+    }
+      
+    hr {
+        flex:1;
+        border-top: 3px solid #10213f;
+    }
+
+    /* Gallery */
+    .gallery-section {
+        padding: 2%;
+        margin-bottom: 20px;
+    }
+    /* End Gallery */
+
+    .footer-section {
+        height: 100%;
+        background-color: #10213f;
+        color: #ffffff !important;
+        padding: 3% 10% 30% 10%;
+        border-top: 4px solid #0a1f3c;
+    }
+
+    .footer-section .col {
+        margin-bottom: 15px;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    
+    .header-container {
+        height: 100vh;
+        width: 100vw; 
+        background-image: url("../images/hero_towing_med.jpeg");
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position:top;
+        padding: 5%;
+        background-color: #10213f;
+    }
+
+    .header-copy, .header-copy span {
+        font-size: 16px;
+    }
+
+    .trust-section {
+        height: 100% !important;
+        margin-bottom: 15%;
+    }
+
+
+    .navbar-header {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-brand, .logo-desktop {
+        display: none;
+        font-family: 'Damion';
+    }
+
+    .nav-contact {
+        background-color: transparent;
+    }
+
+    .trust-section {
+        height: 100% !important; 
+        margin-bottom: 15%;
+    }
+
+    #trust-section, #gallery-section {
+        scroll-margin-top: 50px;
+    }
+
+    .nav-contact {
+        background-color: transparent;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center ;
+        width: 40%;
+        margin: 0 auto;
+    }
+      
+    hr {
+        flex:1;
+        border-top: 3px solid #10213f;
+    }
+
+    /* Gallery */
+    .gallery-section {
+        padding: 2%;
+        margin-bottom: 20px;
+    }
+    /* End Gallery */
+
+    .footer-section {
+        height: 100%;
+        background-color: #10213f;
+        color: #ffffff !important;
+        padding: 3% 10% 30% 10%;
+        border-top: 4px solid #0a1f3c;
+    }
+
+    .footer-section .col {
+        margin-bottom: 15px;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 411px) {
+    .header-container {
+        background-image: url("../images/hero_towing_med.jpeg");
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position:top;
+        padding: 3%;
+        height: 100% !important;
+        background-color: #10213f;
+    }
+
+    .header-copy, .header-copy span {
+        font-size: 12px;
+    }
+
+    .trust-section {
+        height: 100% !important; 
+        margin-bottom: 15%;
+    }
+
+    #trust-section, #gallery-section {
+        scroll-margin-top: 50px;
+    }
+
+    .navbar-header {
+        display: block;
+        width: 90%;
+    }
+
+    .logo-responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-brand-responsive {
+        font-family: 'Damion';
+    }
+
+    .nav-contact {
+        background-color: transparent;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center ;
+        width: 40%;
+        margin: 0 auto;
+    }
+      
+    hr {
+        flex:1;
+        border-top: 3px solid #10213f;
+    }
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none !important;
+        width: 85% !important;
+        height: auto !important;
+    }
+
+    /* Gallery */
+    .gallery-section {
+        padding: 2%;
+        margin-bottom: 20px;
+    }
+    /* End Gallery */
+
+    .footer-section {
+        height: 100%;
+        background-color: #10213f;
+        color: #ffffff !important;
+        padding: 3% 10% 30% 10%;
+        border-top: 4px solid #0a1f3c;
+    }
+
+    .footer-section .col {
+        margin-bottom: 15px;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (min-width: 412px) and  (max-width: 480px) {
+    .header-container {
+        background-image: url("../images/hero_towing_med.jpeg");
+        background-color: #ffffff;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:top;
+        padding: 3%;
+        height: 100% !important;
+        background-color: #10213f;
+    }
+
+    .header-copy, .header-copy span {
+        font-size: 12px;
+    }
+
+    .trust-section {
+        height: 100% !important; 
+        margin-bottom: 15%;
+    }
+
+    #trust-section, #gallery-section {
+        scroll-margin-top: 50px;
+    }
+
+    .navbar-header {
+        display: block;
+        width: 90%;
+    }
+
+    .navbar-brand {
+        display: none;
+        font-family: 'Damion';
+    }
+
+    .nav-contact {
+        background-color: transparent;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center ;
+        width: 40%;
+        margin: 0 auto;
+    }
+      
+    hr {
+        flex:1;
+        border-top: 3px solid #10213f;
+    }
+
+    .logo-responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .footer-section {
+        height: 100vh;
+        background-color: #10213f;
+        color: #ffffff !important;
+        padding: 3% 10% 30% 10%;
+        border-top: 4px solid #0a1f3c;
+    }
+}
